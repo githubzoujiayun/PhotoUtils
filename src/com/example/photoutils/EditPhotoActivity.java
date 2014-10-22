@@ -49,7 +49,7 @@ public class EditPhotoActivity  extends Activity implements OnClickListener {
 	public void onClick(View view) {
 		switch (view.getId()) {
 		case R.id.sendPhotoBtn:
-	
+			Log.i("result", ""+sharePicture(imageUri.getPath()));
 			break;
 
 		default:
